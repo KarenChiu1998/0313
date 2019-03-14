@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Self Information</title>
+	<meta charset="UTF-8">
+	<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 20%;
+  height: 1000px; 
+  background: #ccc;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 1000px; 
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h2>About Me</h2>
+</header>
+<section>
+  <nav>
+    <ul>
+      <li><a href="basic_information.html">Basic Information</a></li>
+      <li><a href="school.html">School</a></li>
+      <li><a href="photo.html">Photo</a></li>
+    </ul>
+  </nav>
+  <article>
+    <h1>我的學校</h1>
+    <p>台灣科技大學</p>
+    <p>資訊管理系</p>
+  </article>
+</section>
+
+</body>
+</html>
